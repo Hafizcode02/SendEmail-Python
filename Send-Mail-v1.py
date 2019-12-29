@@ -4,11 +4,11 @@ from email.mime.text import MIMEText
 from getpass import getpass
 
 # Emiail Yang dikonfigurasi
-configured_email = "vehicles.area@gmail.com"
-# Server Email
+configured_email = "Email Kalian"
+# Server Email (Bisa Diganti Jika Mau)
 server = smtplib.SMTP('smtp.gmail.com', 587)
 # Password Email yang dikonfigurasi
-configured_email_pass = "tokoonlinerpl2"
+configured_email_pass = "Password Email Kalian"
 # array
 msg = MIMEMultipart()
 
